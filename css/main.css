@@ -43,6 +43,8 @@ p {
   width: 800px;
 }
 
+
+
 label {
   display: block;
   font-family: "Karla", sans-serif;
@@ -51,7 +53,7 @@ label {
   font-size: 12px;
   line-height: 14px;
   color: #464646;
-  width: 50%;
+  width: 20%;
 }
 
 .form-label {
@@ -60,7 +62,8 @@ label {
 
 input {
   color: #1c1c1c;
-  display: inline-block;
+  display: block;
+  width: 100%;
   text-align: start;
   background-color: white;
   cursor: text;
@@ -73,7 +76,7 @@ input {
   border: 1px solid #DFDFDF;
   background-color: #fff;
   border-radius: 8px;
-  width: 100%;
+  
 }
 
 input::placeholder {
@@ -87,9 +90,10 @@ input::placeholder {
   margin-bottom: 160px;
 }
 
-.double-input-size {
+.double-input div{
   width: 50%;
 }
+
 
 .test1 {
   height: 50px;
