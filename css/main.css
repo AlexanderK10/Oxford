@@ -33,46 +33,47 @@ p {
 /* form */
 
 .form {
-  padding: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding: 40px;
   outline: 2px solid #ebebeb;
   background: #ffffff;
   border-radius: 16px;
-  width: 100%;
+  width: 800px;
 }
 
 label {
-  display: inline-block;
+  display: block;
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 14px;
   color: #464646;
-  width: 100%;
+  width: 50%;
 }
 
 .form-label {
   margin-bottom: 4px;
 }
 
-.input {
+input {
+  color: #1c1c1c;
   display: inline-block;
-  width: 100%;
-  padding: 12px 16px;
-  font-family: Karla;
+  text-align: start;
+  background-color: white;
+  cursor: text;
+  font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #1c1c1c;
-  background-color: #fff;
-  background-clip: padding-box;
+  padding: 12px 16px;
   border: 1px solid #DFDFDF;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  background-color: #fff;
   border-radius: 8px;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
 }
 
 input::placeholder {
@@ -82,12 +83,36 @@ input::placeholder {
 .double-input {
   display: flex;
   flex-direction: row;
-  align-content: stretch;
   width: 100%;
   margin-bottom: 160px;
 }
 
-.double-input div {
+.double-input-size {
   width: 50%;
 }
 
+.test1 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(78, 10, 236);
+  margin-right: 12px;
+}
+.test2 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 127, 217);
+  margin-left: 12px;
+}
+.test3 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(185, 255, 127);
+}
+
+.para-test {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+
+}
